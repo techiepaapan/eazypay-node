@@ -9,7 +9,7 @@ const fetch = require('../../components/callAPI');
 const publicKey = uatPublicKey;
 const privateKey = uatPrivateKey;
 
-// Update first 3 values after completion of merchant registration
+// Update all the values after completion of merchant registration
 const MerchantId = "123456", // Unique value of length(min-max): 6-8
     subMerchantId = "10", // Unique value of length(min-max): 2-2
     merchantName = "Tchppn", // Unique, Length: 6-digit
