@@ -29,9 +29,9 @@ Eazypay is a first of its kind secure payment service by ICICI Bank in India. It
 ## User Acceptance Testing (UAT)
 
 
-**API: Encryption Test**
-URL: http://localhost:5000/api/uat/EncTest
-Method: POST
+**API: Encryption Test**<br/>
+URL: http://localhost:5000/api/uat/EncTest <br/>
+Method: POST<br/>
 Sample Data:
 ```
 {
@@ -40,18 +40,18 @@ Sample Data:
 ```
 
 
-**API: Decryption Test**
-URL: http://localhost:5000/api/uat/DecTest
-Method: POST
+**API: Decryption Test**<br/>
+URL: http://localhost:5000/api/uat/DecTest <br/>
+Method: POST<br/>
 Sample Data:
 {
   "test":"12"
 }
 
 
-**API: Channel Registration**
-URL: http://localhost:5000/api/uat/ChannelReg
-Method: POST
+**API: Channel Registration**<br/>
+URL: http://localhost:5000/api/uat/ChannelReg <br/>
+Method: POST<br/>
 Sample Data:
 ```
 {
@@ -73,9 +73,9 @@ Sample Data:
 ```
 
 
-**API: Merchant Registration**
-URL: http://localhost:5000/api/uat/MerchantReg
-Method: POST
+**API: Merchant Registration**<br/>
+URL: http://localhost:5000/api/uat/MerchantReg <br/>
+Method: POST<br/>
 Sample Data:
 ```
 {
@@ -91,9 +91,9 @@ Sample Data:
 ```
 
 
-**API: Payment Initiation**
-URL: http://localhost:5000/api/uat/PaymentInit
-Method: POST
+**API: Payment Initiation**<br/>
+URL: http://localhost:5000/api/uat/PaymentInit <br/>
+Method: POST<br/>
 Sample Data:
 ```
 {
