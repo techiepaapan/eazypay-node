@@ -1,0 +1,18 @@
+{
+    "uatHeaders": {
+        "Content-Type": "application/json",
+        "apikey": ""
+    },
+    "uatURL": {
+        "encTestURL": "",
+        "decTestURL": "",
+        "channelReg": "",
+        "merchantReg": "",
+        "paymentInit": ""
+    },
+    "prodHeaders": {
+        "Content-Type": "application/json",
+        "apikey": ""
+    },
+    "prodURL": {}
+}
