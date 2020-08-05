@@ -12,7 +12,8 @@ Eazypay is a first of its kind secure payment service by ICICI Bank in India. It
 4. You have to get CA-Signed(Self-Signed for UAT) 4096-bit certificate against domain and the public certificate must be shared with EazyPay team. The private certificate will be used for decryption.
 5. Place both public and private key in ./cert/uat(for UAT) or ./cert/prod(for production). Update the names in server.js, if needed.
 6. **Make sure your IP(static) is whitelisted.**
-7. Integrate the code into your project as per requirement.
+7. Please update the values in ./routes/api/uat.js after completion of merchant registration. It is advisable to store these values in database and retrieve them when needed.
+8. Integrate the code into your project as per requirement.
 
 
 ## Installation (For Testing)
