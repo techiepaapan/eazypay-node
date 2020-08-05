@@ -44,10 +44,11 @@ Sample Data:
 URL: http://localhost:5000/api/uat/DecTest <br/>
 Method: POST<br/>
 Sample Data:
+```
 {
   "test":"12"
 }
-
+```
 
 **API: Channel Registration**<br/>
 URL: http://localhost:5000/api/uat/ChannelReg <br/>
